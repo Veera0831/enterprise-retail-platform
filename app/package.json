@@ -1,0 +1,27 @@
+
+{
+  "name": "enterprise-retail-platform",
+  "version": "1.0.0",
+  "description": "Enterprise Retail Platform DevOps Project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "devops",
+    "docker",
+    "kubernetes"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
